@@ -34,7 +34,6 @@ public class StringAnalyzer {
             char current = input.charAt(i);
             char previous = input.charAt(i - 1);
 
-            //if (Character.isLetter(input.charAt(i)) && input.charAt(i) == input.charAt(i - 1)) {
             if (isLatinLetter(current) && current == previous){
                 letterFound = true;
                 currentLength++;
